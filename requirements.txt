@@ -9,3 +9,6 @@ pytz==2023.3
 sqlparse==0.4.3
 typing_extensions==4.5.0
 whitenoise==6.4.0
+
+import django_heroku
+django_heroku.settings(locals())
